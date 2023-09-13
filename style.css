@@ -1,0 +1,308 @@
+.Header{
+    height: 66px;
+    padding-top: 15px;
+    background: #fff;
+}
+.logo{
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    background: #f1f1f1;
+    font-family: sans-serif;
+}
+.Header-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:600 ;
+}
+.line{
+    border-bottom: 10px solid black;
+}
+.text:hover{
+    text-shadow: .5px 0 0;
+    text-decoration: underline 5px;
+    text-underline-offset: 34px;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    background: #f1f1f1;
+}
+.big-image{
+    width: 93%;
+    margin: 3%;
+    margin-left: 54px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.Experiences{
+    text-align: center;
+}
+.coke-button{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border-radius: 48px;
+    border: 2px solid;
+    font-size: 15px;
+    font-weight: bold;
+}
+.coke-button:hover{
+    cursor: pointer;
+    border-color: #6e6e6e;
+    color: #6e6e6e;
+}
+.Coke-image{
+    border-radius: 20px ;
+    width: 541px;
+    height: 466px;
+}
+.top-body-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 115px;
+}
+.Main-head-news{
+    text-align: center;
+    margin-top: 120px;
+}
+.news-head{
+    margin-top: 17px;
+    font-size: 28px;
+    margin-left: 32px;
+}
+.news{
+    height: 700px;
+    width: 540px;
+    background: #fff;
+    margin: 1%;
+    border-radius: 20px
+}
+.news:hover{
+    cursor: pointer;
+    .news-more{
+        color: gray;
+    }
+    .news-more2{
+        color: gray;
+    } 
+}
+.news-image{
+    width: 100%;
+    height: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.news-content{
+    display: flex;
+    justify-content: center;
+}
+.news-text{
+    font-size: 21px;
+    line-height: 30px;
+    margin-left: 34px;
+}
+.news-more{
+  float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.news-more2{
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+}
+.Limca-news{
+    margin-top: 200px;
+}
+.Limca-image{
+    border-radius: 20px;
+    float: left;
+    margin-left: 116px;
+}
+.Limca{
+    float: left;
+    background: #fff;
+    width: 530px;
+    height: 500px;
+    border-radius: 20px;
+    padding-left: 63px;
+    padding-top: 40px;
+    margin-left: -70px;
+    margin-top: -74px;
+    letter-spacing: 1px;
+}
+.Learn{
+    margin-top: 39px;
+    height: 41px;
+    border-radius: 20px;
+    background: transparent;
+    width: 300px;
+    border: 2px solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Limca-text{
+    line-height: 25px;
+}
+.Learn:hover{
+    border-color: gray;
+    color: gray;
+}
+.Limca-picture{
+    width: 100%;
+}
+.Brands{
+margin-top: 820px;
+}
+.Brand-head{
+    text-align: center;
+}
+.Brands-name{
+    display: flex;
+    margin-left: 242px;
+    width: 64%;
+    height: 250px;
+    flex-wrap: wrap;
+}
+.Drink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 1%;
+    width: 30%;
+    border-radius: 20px;
+    height: 75%;
+    cursor: pointer;
+}
+.soft-drink{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.View{
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 37%;
+    background: black;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    height: 40px;
+    font-weight: 600;
+    border: 1px solid;
+}
+.View:hover{
+    background: #6e6e6e;
+}
+.big-para{
+    margin-left: 113px;
+    width: 88%;
+}
+.para{
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.Footer{
+    background: black;
+    margin-top: 100px;
+    height: 400px;
+    padding-left: 115px;
+    padding-top: 66px;
+    padding-right: 100px;
+}
+.location-button{
+    float: right;
+    height: 43px;
+    width: 200px;
+    background: transparent;
+    color: white;
+    border: 2px solid;
+    border-radius: 22px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    line-height: 10px;
+}
+.location-image{
+    width: 21px;
+    height: 24px;
+    margin-top: -3px;
+    margin-left: -10px;
+}
+.line{
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background: #f1f1f1;
+}
+.Link-head{
+    color: #6e6e6e;
+    font-size: 12px;
+}
+.links{
+    color: #fff;
+    letter-spacing: 1px;
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.first-list{
+    float: left;
+}
+.second-list{
+    margin-left: 30px;
+    float: left;
+}
+.third-list{
+    margin-left: 20px;
+    margin-top: 29px;
+    float: left;
+}
+.location-button:hover{
+    cursor: pointer;
+    background: #6e6e6e;
+}
+.social{
+    float: right;
+    margin-top: 20px;
+}
+.icon-button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    height: 27px;
+    width: 29px;
+    margin-right: 10px;
+}
+.icon{
+    height: 15px;
+    width: 15px;
+}
+.icon-button:hover{
+    background:#6e6e6e;
+    cursor: pointer;
+}
+.line-end{
+    margin-top: 200px;
+    width: 100%;
+    height: 1px;
+    background: #f1f1f1;
+}
+.Copyright{
+    float:right;
+    color: #fff;
+    margin-top: 35px;
+    font-size: 15px;
+}
